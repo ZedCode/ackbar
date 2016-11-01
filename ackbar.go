@@ -48,7 +48,7 @@ func handleRequest(conn net.Conn) {
 		}
 		request := string(bytes.Trim(buf[:], "\x00"))
 		log.Println("REQUEST CONTENT: ", request)
-		log.Println("LOCKING S-FLOILS IN ATTACK POSITION")
+		log.Println("LOCKING S-FOILS IN ATTACK POSITION")
 		fbuf := make([]byte, 2048)
 		n := 0
 		for err == nil {
